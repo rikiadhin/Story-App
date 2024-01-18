@@ -1,0 +1,135 @@
+ [LOGGER] 2024-01-18 03:18:50.504 PM error : uncaughtException: userRouter is not defined
+ReferenceError: userRouter is not defined
+    at file:///E:/PRAK_COURSE/JS/StoryApp/backend/src/routes/index.js:9:17
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:66:12)
+ [LOGGER] 2024-01-18 03:38:23.746 PM error : Error in src/controllers/user.controller.js:createUser - Cannot read properties of undefined (reading 'create')
+ [LOGGER] 2024-01-18 03:57:22.261 PM error : Error in src/controllers/story.controller.js:createStory - 
+Invalid `prisma.story.create()` invocation:
+
+{
+  data: {
+    title: "Pagi Cerah",
+    writes: "Laptop Dell",
+    category: "tags",
+    tags: "tags",
+    status: "aman",
+    coverImage: "pagicerah.jpg",
+                ~~~~~~~~~~~~~~~
+    synopsis: "selamat pagi"
+  }
+}
+
+Invalid value for argument `coverImage`: Could not convert from `base64 encoded bytes` to `PrismaValue::Bytes`. Expected base64 String.
+ [LOGGER] 2024-01-18 03:58:00.708 PM error : Error in src/controllers/story.controller.js:createStory - 
+Invalid `prisma.story.create()` invocation:
+
+{
+  data: {
+    title: "Pagi Cerah",
+    writes: "Laptop Dell",
+    category: "tags",
+    tags: "tags",
+    status: "aman",
+    coverImage: "pagicerah.jpg",
+                ~~~~~~~~~~~~~~~
+    synopsis: "selamat pagi"
+  }
+}
+
+Invalid value for argument `coverImage`: Could not convert from `base64 encoded bytes` to `PrismaValue::Bytes`. Expected base64 String.
+ [LOGGER] 2024-01-18 07:52:52.195 PM error : Error in src/controllers/user.controller.js:getAcessToken - 
+Invalid `prisma.user.findUnique()` invocation:
+
+
+Can't reach database server at `localhost`:`3306`
+
+Please make sure your database server is running at `localhost`:`3306`.
+ [LOGGER] 2024-01-18 08:40:21.423 PM error : uncaughtException: chapterRouter is not defined
+ReferenceError: chapterRouter is not defined
+    at file:///E:/PRAK_COURSE/JS/StoryApp/backend/src/routes/index.js:10:17
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:66:12)
+ [LOGGER] 2024-01-18 08:40:41.499 PM error : uncaughtException: chapterRouter is not defined
+ReferenceError: chapterRouter is not defined
+    at file:///E:/PRAK_COURSE/JS/StoryApp/backend/src/routes/index.js:10:17
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:66:12)
+ [LOGGER] 2024-01-18 08:49:59.267 PM error : Error in src/controllers/chapter.controller.js:createChapter - 
+Invalid `prisma.chapter.create()` invocation:
+
+{
+  data: {
+    title: "Rumah RIki",
+    story: "Sangat Indah",
++   lastUpdate: DateTime
+  }
+}
+
+Argument `lastUpdate` is missing.
+ [LOGGER] 2024-01-18 08:51:34.963 PM error : Error in src/controllers/chapter.controller.js:createChapter - 
+Invalid `prisma.chapter.create()` invocation:
+
+{
+  data: {
+    title: "Rumah RIki",
+    story: "Sangat Indah",
++   lastUpdate: DateTime
+  }
+}
+
+Argument `lastUpdate` is missing.
+ [LOGGER] 2024-01-18 08:52:27.191 PM error : Error in src/controllers/chapter.controller.js:createChapter - 
+Invalid `prisma.chapter.create()` invocation:
+
+{
+  data: {
+    title: "Rumah RIki",
+    story: "Sangat Indah",
++   lastUpdate: DateTime
+  }
+}
+
+Argument `lastUpdate` is missing.
+ [LOGGER] 2024-01-18 08:53:05.089 PM error : Error in src/controllers/chapter.controller.js:createChapter - 
+Invalid `prisma.chapter.create()` invocation:
+
+{
+  data: {
+    title: "Rumah RIki",
+    story: "Sangat Indah",
++   lastUpdate: DateTime
+  }
+}
+
+Argument `lastUpdate` is missing.
+ [LOGGER] 2024-01-18 08:53:34.988 PM error : Error in src/controllers/chapter.controller.js:createChapter - 
+Invalid `prisma.chapter.create()` invocation:
+
+{
+  data: {
+    title: "Rumah RIki",
+    story: "Sangat Indah",
++   lastUpdate: DateTime
+  }
+}
+
+Argument `lastUpdate` is missing.
+ [LOGGER] 2024-01-18 08:56:40.845 PM error : Error in src/controllers/chapter.controller.js:createChapter - 
+Invalid `prisma.chapter.create()` invocation:
+
+{
+  data: {
+    title: "Rumah RIki",
+    story: "Sangat Indah",
++   lastUpdate: DateTime
+  }
+}
+
+Argument `lastUpdate` is missing.
